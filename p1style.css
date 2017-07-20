@@ -1,0 +1,41 @@
+body {
+    background-color: #27acff;
+    font-family: 'Arial', Verdana, sans-serif;
+    height: 100%;
+
+}
+p {
+    display: inline-block;
+    margin: 0 auto;
+    color: #0A2B40;
+    width: 500;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: #082640;
+}
+
+form {
+    width: 35%;
+    font-size: 1.2em;
+    text-align: left;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 2px 2px;
+}
+
+input {
+    display: inline;
+
+}
