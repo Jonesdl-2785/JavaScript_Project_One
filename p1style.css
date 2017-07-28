@@ -17,13 +17,16 @@ h1 {
     text-align: center;
 }
 
+
 h2 {
 
     font-size: 1em;
-    display: inline-block;
+    /*display: inline-block;*/
     text-decoration: none;
     color: #082640;
 }
+
+
 
 form {
     width: 35%;
@@ -38,4 +41,12 @@ form {
 input {
     display: inline;
 
+}
+
+.grades {
+  text-decoration: none;
+}
+
+li {
+    display: inline;
 }
