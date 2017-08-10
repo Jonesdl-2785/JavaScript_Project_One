@@ -64,7 +64,7 @@ function getGrades() {
     }
 }
 
-tGrade = parseInt(math + science + art + history);
+tGrade = parseInt(math) + parseInt(science) + parseInt(art) + parseInt(history]
   document.getElementById('total').innerHTML = (total + ' ');
 
 avg = total/4
