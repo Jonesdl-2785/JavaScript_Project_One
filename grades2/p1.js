@@ -9,7 +9,7 @@ function getGrades() {
   let tGrade = 0;
 
   for (i = 0; i += getGrades.length; i++) {
-    total = parseInt("0" +document.getElementById('total').value, 4);
+    total += parseInt("0" +document.getElementById('total').value, 4);
   }
     //math
     if (math >= 90 && math <= 100) {
@@ -64,6 +64,7 @@ function getGrades() {
     }
 }
 
+  //grade += parseInt(getGrades[i]);
 tGrade = parseInt(math) + parseInt(science) + parseInt(art) + parseInt(history]
   document.getElementById('total').innerHTML = (total + ' ');
 
