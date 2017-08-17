@@ -6,10 +6,17 @@ function getGrades() {
   let art = document.getElementById('art').value;
   let total = (parseInt(math) + parseInt(science) + parseInt(history) + parseInt(art));
   let avg = total / 4;
-  let totalGrades = ('math', 'science', 'history', 'art');
+  let tGrade = 0;
+
+  avg = total/4
+    document.getElementById('avg').innerHTML = avg + '    ';
+
+  //tGrade = parseInt(math) + parseInt(science) + parseInt(art) + parseInt(history)
+    //  document.getElementById('total').innerHTML = (total + ' ');
+
 
   for (i = 0; i += getGrades.length; i++) {
-    total = parseInt("0" +document.getElementById('total').value, 4);
+    total += parseInt("0" +document.getElementById('total').value);
   }
     //math
     if (math >= 90 && math <= 100) {
@@ -62,13 +69,4 @@ function getGrades() {
     } else if (art >= 0 && art <= 59) {
       document.getElementById('letterA').innerHTML = "E";
     }
-};
-
-  function getData(total, avg) {
-
-    total = parseInt("0" +document.getElementById('total').value, 4);
-
-    avg = total/4;
-    document.getElementById('avg').value = '  ';
-    console.log(avg);
-  }
+}
